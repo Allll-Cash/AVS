@@ -67,7 +67,7 @@ int main() {
 	for (int i = 0; i < n; i++)
 		pthread_join(mythread[i], NULL);
 
-	//Сортируем массив индексов и выводим
+	//Выводим массив индексов
 	for (int j : C)
 	{
 		cout << j << "\n";
